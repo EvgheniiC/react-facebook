@@ -7,7 +7,8 @@ const MyPosts = () => {
     return  <div>
                 My post
                <div className={classes.posts}>
-                 <Post/>
+                 <Post message = "Hi, how are you?" like = "20"/>
+                 <Post message = "It's ma first post!" like = "15"/>
                </div>
             </div>
 
