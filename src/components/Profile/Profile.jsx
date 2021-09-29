@@ -5,10 +5,13 @@ import classes from './Profile.module.css'
 
 
 const Profile = (props) => {
-
     return  <div>
                 <ProfileInfo/>
-                <MyPosts posts = {props.state.posts} />
+                <MyPosts 
+                posts = {props.profilePage.posts}
+                addPost = {props.addPost}
+                newPostText = {props.profilePage.newPostText}
+                updateNewPostChange = {props.updateNewPostChange}/>
             </div>
 
 
