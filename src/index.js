@@ -10,8 +10,8 @@ import store from './redux/state';
     ReactDOM.render(
         <React.StrictMode>
             <BrowserRouter>
-              <App state = {store.getState()} addPost = {store.addPost}
-               updateNewPostChange = {store.updateNewPostChange}/>
+              <App state = {state} addPost = {store.addPost.bind(store)}
+               updateNewPostChange = {store.updateNewPostChange.bind(store)}/>
             </BrowserRouter>
       </React.StrictMode>,
       document.getElementById('root')
