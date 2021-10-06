@@ -39,26 +39,45 @@ let store = {
   getState(){
     return this._state;
   },
+  subscribe(observer) {
+    this._callSubscrieber = observer;
+  },
   _callSubscrieber() {
     console.log("State was changed")
   },
-  addPost() {
-    let newPost = {
-      id: 5,
-      message: this._state.profilePage.newPostText,
-      likesCount : 0
-    }; 
-    this._state.profilePage.posts.push(newPost);
-    this._state.profilePage.newPostText = '';
-    this._callSubscrieber(this._state);
-  },
-  updateNewPostChange(newText) {
-    this._state.profilePage.newPostText = newText
-    this._callSubscrieber(this._state);
-  },
-  subscribe(observer) {
-    this._callSubscrieber = observer;
+
+  // addPost() {
+  //   let newPost = {
+  //     id: 5,
+  //     message: this._state.profilePage.newPostText,
+  //     likesCount : 0
+  //   }; 
+  //   this._state.profilePage.posts.push(newPost);
+  //   this._state.profilePage.newPostText = '';
+  //   this._callSubscrieber(this._state);
+  // },
+  // updateNewPostChange(newText) {
+  //   this._state.profilePage.newPostText = newText
+  //   this._callSubscrieber(this._state);
+  // },
+  
+  dispatch(action){
+    if (action.type === 'ADD-POST'){
+      let newPost = {
+        id: 5,
+        message: this._state.profilePage.newPostText,
+        likesCount : 0
+      }; 
+      this._state.profilePage.posts.push(newPost);
+      this._state.profilePage.newPostText = '';
+      this._callSubscrieber(this._state);
+    }
+    else if (action.type === 'UPDATE-NEW-POST-TEXT'){
+      this._state.profilePage.newPostText = action.newText
+      this._callSubscrieber(this._state);
+    }
   }
+
 }
   // window.store = store
   export default store
