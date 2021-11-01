@@ -11,6 +11,7 @@ import Settingses from './components/Settingses/Settingses';
 import Friends from './components/Friends/Friends';
 
 const App = (props) => {
+  debugger
   return (
           <div className="app-wrapper">
           <Header/>

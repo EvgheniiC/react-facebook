@@ -4,7 +4,7 @@ import Friends from "../Friends/Friends";
 import classes from './Navbar.module.css'
 
 const Navbar = (props) => {
-
+debugger
      let friend = props.state.friendsOnline
                 .map((friend) =>  friend.name + " " )
 
