@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom'; 
 import store from './redux/reduxStore';
+import StoteContext from './StoteContext';
 
 
  let rerenderEntreeTree = (state) => {
@@ -11,7 +12,10 @@ import store from './redux/reduxStore';
     ReactDOM.render(
         <React.StrictMode>
             <BrowserRouter>
-              <App state = {state} dispatch = {store.dispatch.bind(store)} store = {store}/>
+            <StoteContext.Provider/>
+              {/* <App state = {state} dispatch = {store.dispatch.bind(store)} store = {store}/> */}
+              <App/>
+              <StoteContext.Provider/>
             </BrowserRouter>
       </React.StrictMode>,
       document.getElementById('root')
