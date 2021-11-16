@@ -4,9 +4,9 @@ import Friends from "../Friends/Friends";
 import classes from './Navbar.module.css'
 
 const Navbar = (props) => {
-debugger
-     let friend = props.state.friendsOnline
-                .map((friend) =>  friend.name + " " )
+     // let friend = props.state.friendsOnline
+     //            .map((friend) =>  friend.name + " " )
+     
 
 
     return  <nav className={classes.nav}>
@@ -29,12 +29,7 @@ debugger
                 <div className={classes.item}>
                      <div className={classes.friends}>
                          <NavLink  to = "/friends" activeClassName = {classes.activeLink}> Friends </NavLink>
-                    {/* <div className={classes.friends}>
-                          <div className={classes.numberCircle}></div>
-                          <div className={classes.numberCircle}></div>
-                          <div className={classes.numberCircle}></div>
-                         {friend}
-                    </div> */}
+
 
                          <div className={classes.container}>
                               <div className={classes.box}>
@@ -42,7 +37,7 @@ debugger
                                    <div className={classes.numberCircle}></div>
                                    <div className={classes.numberCircle}></div>
                               </div>
-                              {friend}
+                              {/* {friend} */}
                          </div>
                     </div>
 
