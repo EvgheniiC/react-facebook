@@ -11,10 +11,10 @@ const Dialogs = (props) => {
       let newDialogElement = React.createRef()
 
       let dialogs = state.dialogsData
-      .map((dialog) => <DialogItem id = {dialog.id} name = {dialog.name}/>)
+      .map((dialog) => <DialogItem id = {dialog.id} key = {dialog.id} name = {dialog.name}/>)
 
       let messages = state.messagesData
-      .map((message) => <Message message = {message.message}/>)
+      .map((message) => <Message message = {message.message} key = {message.id}/>)
       
       let newMessageBody = state.newMessageBody
 

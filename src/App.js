@@ -11,11 +11,11 @@ import Friends from './components/Friends/Friends';
 import DialogsContainer from './components/Dialogs/DialogsContainer';
 
 const App = (props) => {
-  debugger
+  
   return (
           <div className="app-wrapper">
           <Header/>
-          <Navbar state = {props.state.sidebar}/>
+          <Navbar store = {props.store}/>
           <div className = "app-wrapper-content">
             <Route path = '/dialogs' render = {() =>
              <DialogsContainer
