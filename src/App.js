@@ -9,6 +9,8 @@ import News from './components/News/News';
 import Settingses from './components/Settingses/Settingses';
 import Friends from './components/Friends/Friends';
 import DialogsContainer from './components/Dialogs/DialogsContainer';
+import Users from './components/Users/Users';
+import UsersContainer from './components/Users/UsersContainer';
 
 const App = (props) => {
   
@@ -30,6 +32,7 @@ const App = (props) => {
             <Route path = '/news' render = {() => <News/>}/>
             <Route path = '/musik' render = {() => <Musik/>}/>
             <Route path = '/settings' render = {() => <Settingses/>}/>
+            <Route path = '/users' render = {() => <UsersContainer/>}/>
             <Route path = '/friends' render = {() => <Friends/>}/>
           </div>
       </div>
