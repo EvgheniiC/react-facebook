@@ -6,17 +6,16 @@ import userPhoto from "../../../src/assets/img/man.png"
 const Users = (props) => {
   
   let getUsers = () => {
-  if (props.users.lenght === 0){
-    axios.get("https://social-network.samuraijs.com/api/1.0/users").then(response => {
-      debugger // http://localhost:3004/items
+  if (props.users.length === 0){
+    axios.get("http://localhost:3004/users").then(response => {
+      debugger // http://localhost:3004/users
       props.setUsers(response.data.items)
     })
   }
 }
- 
 
     return  <div>
-      <button onClick = {getUsers}> Get Users </button>
+       <button onClick = {getUsers}> Get Users </button>
               {
                 props.users.map(u => <div key = {u.id}>
                   <span>
@@ -41,7 +40,7 @@ const Users = (props) => {
                     </span>
                   </span>              
                 </div>)
-              }
+              } 
              
             </div>
 }
