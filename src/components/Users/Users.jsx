@@ -14,7 +14,7 @@ class Users extends React.Component {
 
   onPageChanged = (pageNumber) => {
     this.props.setCurrentPage(pageNumber);
-    axios.get(`http://localhost:3004/users?_page=${this.props.pageNumber}&_limit=${this.props.pageSize}`).then(response => {
+    axios.get(`http://localhost:3004/users?_page=${pageNumber}&_limit=${this.props.pageSize}`).then(response => {
       this.props.setUsers(response.data.items)
     }) }
 
