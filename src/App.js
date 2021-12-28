@@ -23,10 +23,9 @@ const App = (props) => {
              store = {props.store} />
             }
              />
-            <Route path = '/profile'
+            <Route path = '/profile/:userId?'
              render = {() => 
-             <ProfileContainer
-             store = {props.store} /> }
+             <ProfileContainer/> }
              />
             <Route path = '/news' render = {() => <News/>}/>
             <Route path = '/musik' render = {() => <Musik/>}/>
