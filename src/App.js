@@ -4,6 +4,7 @@ import './App.css';
 import DialogsContainer from './components/Dialogs/DialogsContainer';
 import Friends from './components/Friends/Friends';
 import Header from './components/Header/Header';
+import HeaderContainer from './components/Header/HeaderContainer';
 import Musik from './components/Musik/Musik';
 import Navbar from './components/Navbar/Navbar';
 import News from './components/News/News';
@@ -15,7 +16,7 @@ const App = (props) => {
   
   return (
           <div className="app-wrapper">
-          <Header/>
+          <HeaderContainer/>
           <Navbar store = {props.store}/>
           <div className = "app-wrapper-content">
             <Route path = '/dialogs' render = {() =>
