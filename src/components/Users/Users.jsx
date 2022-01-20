@@ -6,7 +6,6 @@ import * as axios from "axios"
 
 let Users = (props) => {
 
-
   //http://localhost:3004/users?followed=true
   let pagesCount = Math.ceil(props.totalUsersCounts / props.pageSize);
   let pages = [];
@@ -32,18 +31,14 @@ let Users = (props) => {
           <div>
             {u.followed ?
               <button onClick={() => {
-                
                 axios.delete(`http://localhost:3004/users}`, {withCredentials : true}).then(response => {
                   props.unfollow(u.id);
               })
-              
               }}>UNFOLLOW</button> :
               <button onClick={() => { 
-                
                 axios.post(`http://localhost:3004/users}`,{},{withCredentials : true}).then(response => {
                   props.follow(u.id);
               })
-                
                 }}>FOLLOW</button>}
 
           </div>
