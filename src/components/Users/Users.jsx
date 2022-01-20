@@ -30,14 +30,18 @@ let Users = (props) => {
           </div>
           <div>
             {u.followed ?
-              <button onClick={() => {
+              <button disabled= {props.folowingInProgress.some(id =>id === u.id)}  onClick={() => {
+                props.toggleFolowingProgress(true, u.id);
                 axios.delete(`http://localhost:3004/users}`, {withCredentials : true}).then(response => {
                   props.unfollow(u.id);
+                  props.toggleFolowingProgress(false, u.id);
               })
               }}>UNFOLLOW</button> :
-              <button onClick={() => { 
+              <button disabled= {props.folowingInProgress.some(id =>id === u.id)} onClick={() => { 
+                props.toggleFolowingProgress(true, u.id);
                 axios.post(`http://localhost:3004/users}`,{},{withCredentials : true}).then(response => {
                   props.follow(u.id);
+                  props.toggleFolowingProgress(false, u.id);
               })
                 }}>FOLLOW</button>}
 
