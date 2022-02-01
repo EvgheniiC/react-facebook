@@ -1,0 +1,24 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "users test api",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json --port 3004",
+    "start-auth": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgheniiC/react-facebook.git"
+  },
+  "author": "Evghenii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgheniiC/react-facebook/issues"
+  },
+  "homepage": "https://github.com/EvgheniiC/react-facebook#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0"
+  }
+}

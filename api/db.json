@@ -1,0 +1,118 @@
+{
+  "users":{
+    "items": [
+      {
+        "name": "Evghenii",
+        "id": 21244,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://klike.net/uploads/posts/2019-03/1551511801_1.jpg",
+          "large": "https://klike.net/uploads/posts/2019-03/1551511801_1.jpg"
+        },
+        "status": "cool",
+        "followed": false
+      },
+      {
+        "name": "mxc31181",
+        "id": 21243,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://tiktok-wiki.ru/wp-content/uploads/2020/05/avatarki-dlya-tik-toka1.jpg",
+          "large": "https://tiktok-wiki.ru/wp-content/uploads/2020/05/avatarki-dlya-tik-toka1.jpg"
+        },
+        "status": "prima",
+        "followed": false
+      },
+      {
+        "name": "temPa4e",
+        "id": 21242,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://avatarko.ru/img/kartinka/2/Gubka_Bob.jpg",
+          "large": "https://avatarko.ru/img/kartinka/2/Gubka_Bob.jpg"
+        },
+        "status": "I am the best",
+        "followed": true
+      },
+      {
+        "name": "DSt17",
+        "id": 21241,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "http://pm1.narvii.com/7528/67767ebc1becf4847d5dfe60dbbdacb38197753dr1-644-934v2_uhq.jpg",
+          "large": "http://pm1.narvii.com/7528/67767ebc1becf4847d5dfe60dbbdacb38197753dr1-644-934v2_uhq.jpg"
+        },
+        "status": "Yo!",
+        "followed": false
+      },
+      {
+        "name": "Lelik77777",
+        "id": 21240,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://www.meme-arsenal.com/memes/be50e6ba99654b5455027dcc82beb5b3.jpg",
+          "large": "https://www.meme-arsenal.com/memes/be50e6ba99654b5455027dcc82beb5b3.jpg"
+        },
+        "status": "Fitness",
+        "followed": false
+      },
+      {
+        "name": "katarka",
+        "id": 21239,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://www.blast.hk/attachments/68493/",
+          "large": "https://www.blast.hk/attachments/68493/"
+        },
+        "status": "Bad",
+        "followed": false
+      },
+      {
+        "name": "vitality28",
+        "id": 21238,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://sun9-88.userapi.com/impg/bjRJbshrNMaSR3CYlGEX1v7kUkX8eR879I04Og/V_uKdLKVlwI.jpg?size=520x0&quality=95&sign=4a32f2957048a5361583eea74bf67dac",
+          "large": "https://sun9-88.userapi.com/impg/bjRJbshrNMaSR3CYlGEX1v7kUkX8eR879I04Og/V_uKdLKVlwI.jpg?size=520x0&quality=95&sign=4a32f2957048a5361583eea74bf67dac"
+        },
+        "status": "NO",
+        "followed": false
+      },
+      {
+        "name": "nastya301199",
+        "id": 21237,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTc53lyGpdLsJyVvsMJgyusQXsVRCC0Brl3w&usqp=CAU",
+          "large": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTc53lyGpdLsJyVvsMJgyusQXsVRCC0Brl3w&usqp=CAU"
+        },
+        "status": "Immer",
+        "followed": false
+      },
+      {
+        "name": "hpfreake1",
+        "id": 21236,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3pS1PFd_HZJwyx3V15NKRWEp26oc3BlyXKg&usqp=CAU",
+          "large": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3pS1PFd_HZJwyx3V15NKRWEp26oc3BlyXKg&usqp=CAU"
+        },
+        "status": "FOREVER 18",
+        "followed": false
+      },
+      {
+        "name": "hpfreake",
+        "id": 21235,
+        "uniqueUrlName": null,
+        "photos": {
+          "small": "https://cs1.livemaster.ru/storage/51/3c/f6439afb147f7c6c3a9189ea1bwl--dizajn-i-reklama-illyustratsii-avatarki-aktualnye-storis.jpg",
+          "large": "https://cs1.livemaster.ru/storage/51/3c/f6439afb147f7c6c3a9189ea1bwl--dizajn-i-reklama-illyustratsii-avatarki-aktualnye-storis.jpg"
+        },
+        "status": "Singe",
+        "followed": false
+      }
+    ],
+    "totalCount": 30,
+    "error": null
+  }
+}
