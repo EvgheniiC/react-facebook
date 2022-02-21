@@ -17,14 +17,8 @@ const ProfileInfo = (props) => {
                         <p> {props.profile.fullName} </p>
                         <p> {props.profile.aboutMe} </p>
                     </div>
-                     
                 </div>
-
             </div>
-
-
-  
-
 }
 
 export default ProfileInfo;

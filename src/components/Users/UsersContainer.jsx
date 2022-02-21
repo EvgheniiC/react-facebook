@@ -17,7 +17,7 @@ class UsersContainer extends React.Component {
       // for realtät
       // this.props.setTotalUsersCount(response.data.totalCount);
       // for example 
-      this.props.setTotalUsersCount(40);
+      this.props.setTotalUsersCount(160);
     })
   }
 

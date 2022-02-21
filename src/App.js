@@ -24,7 +24,7 @@ const App = (props) => {
              store = {props.store} />
             }
              />
-            <Route path = '/profile'
+            <Route path = '/profile/:userId?'
              render = {() => 
              <ProfileContainer
              store = {props.store} /> }
